@@ -8,6 +8,14 @@ Copy to `~/.bashrc`;
 $ cp ./.bashrc ~/.bashrc
 ```
 
+## .inputrc
+
+Copy to `~/.inputrc`;
+
+```
+$ cp ./.inputrc ~/.inputrc
+```
+
 ## .vimrc
 
 Copy to `~/.vimrc`;
