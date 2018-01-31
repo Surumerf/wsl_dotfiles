@@ -2,16 +2,16 @@
 
 ## .bashrc
 
-Copy to ~/.bashrc;
+Copy to `~/.bashrc`;
 
-```sh
+```
 $ cp ./.bashrc ~/.bashrc
 ```
 
 ## .vimrc
 
-Copy to ~/.vimrc;
+Copy to `~/.vimrc`;
 
-```sh
+```
 $ cp ./.vimrc ~/.vimrc
 ```
