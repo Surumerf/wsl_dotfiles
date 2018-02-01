@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 alias repo='/mnt/c/Users/Ryota/github.sh'
-
+alias clip='/mnt/c/Windows/System32/clip.exe'
 
 export GPG_TTY=$(tty)
 
