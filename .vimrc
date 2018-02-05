@@ -34,9 +34,6 @@ nnoremap <down> gj
 nnoremap <up> gk
 set backspace=indent,eol,start
 
-inoremap { {}<LEFT>
-inoremap ( ()<LEFT>
-
 set showmatch
 source $VIMRUNTIME/macros/matchit.vim
 
@@ -58,6 +55,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My bundles here:
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'mattn/emmet-vim'
+NeoBundle 'cohama/lexima.vim'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
