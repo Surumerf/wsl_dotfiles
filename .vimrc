@@ -34,6 +34,9 @@ nnoremap <down> gj
 nnoremap <up> gk
 set backspace=indent,eol,start
 
+inoremap { {}<LEFT>
+inoremap ( ()<LEFT>
+
 set showmatch
 source $VIMRUNTIME/macros/matchit.vim
 
