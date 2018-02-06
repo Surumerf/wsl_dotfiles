@@ -118,6 +118,7 @@ fi
 
 alias repo='/mnt/c/Users/Ryota/github.sh'
 alias clip='/mnt/c/Windows/System32/clip.exe'
+alias ccat='pygmentize'
 
 export GPG_TTY=$(tty)
 
