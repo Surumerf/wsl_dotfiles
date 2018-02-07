@@ -125,9 +125,6 @@ export GPG_TTY=$(tty)
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
-if [ -f /etc/bash_completion ]; then
-	. /etc/bash_completion
-fi
 if [ -f /etc/bash_completion.d/git-prompt ]; then
     GIT_PS1_SHOWDIRTYSTATE=1
     GIT_PS1_SHOWUNTRACKEDFILES=1
